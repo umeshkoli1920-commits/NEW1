@@ -103,7 +103,7 @@ button {
 </audio>
 
 <div class="container">
-    <h1> HELLO GABBULU ❤️</h1>
+    <h1>HELLO GABBULU ❤️</h1>
     <h2>WILL YOU BE MINE FOREVER ? 💍</h2>
 
     <button id="yes" onclick="sayYes()">YES</button>
@@ -118,8 +118,6 @@ function moveNo() {
     no.style.top = Math.random() * (window.innerHeight - no.offsetHeight) + "px";
 }
 
-<script>
-// YES button click handler
 // YES button click handler
 function sayYes() {
     const music = document.getElementById("bgMusic");
@@ -128,8 +126,8 @@ function sayYes() {
 
     // Move container to top
     const container = document.querySelector(".container");
-    container.style.top = "20px";           // small gap from top
-    container.style.transform = "translateY(0)";  // remove vertical centering
+    container.style.top = "20px";           
+    container.style.transform = "translateY(0)";  
 
     container.innerHTML = `
         <h1>JINGALALAAAA 😍💖</h1>
@@ -154,9 +152,6 @@ function sayYes() {
 
     startFireworks();
 }
-
-</script>
-
 
 // Fireworks effect
 function startFireworks() {
@@ -214,3 +209,4 @@ setInterval(createSparkle, 150);
 
 </body>
 </html>
+
